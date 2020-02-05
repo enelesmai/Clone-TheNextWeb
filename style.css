@@ -174,6 +174,11 @@ ul {
   color: #fff;
   margin-left: 25px;
 }
+.most-popular {
+  font-size: 1rem;
+  color: #fff;
+  margin-left: 20px;
+}
 
 .main-article-author {
   font-size: 0.75rem;
@@ -309,6 +314,22 @@ ul {
 .latest-title > a:hover{  
   color: #000;
 }
+
+.popular-topic {
+  margin: 20px 0;
+  color: #f42;
+  font-weight: 700 !important;
+  font-size: 1.5rem;
+  max-width: 80%;
+}
+.popular-topic> a{  
+  color: #f42;
+  text-decoration: none;
+}
+.popular-topic > a:hover{  
+  color: #000;
+}
+
 
 .latest-news {
   width: 100%;
@@ -612,4 +633,121 @@ ul {
 .red-font {
   color: #f42;
   font-weight: 700;
+}
+
+
+
+/*MOST POPULAR*/
+.most-popular-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 25px;
+  max-width: 80%;
+  margin: 0 auto;
+}
+.popular-box {
+  width: 100%;
+}
+
+
+.second-popular-news {
+  height: 95px;
+  background-color: rgba(255,68,34,.06);
+  font-size: 0.9rem;
+}
+.second-popular-img {
+  float: right;
+}
+.second-popular-title {
+  color: #f42;
+  float: left;
+  width: 80%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.second-popular-title > a {
+  color: #f42;
+  text-decoration: none;
+  font-weight: 900;
+}
+.second-popular-img > img{
+  height: 95px;
+  width: 95px;
+}
+.other-popular-news {
+  color: #6f6f6f;
+}
+.other-popular-news > ul {
+  list-style: none;  
+}
+.other-popular-news > ul > li {
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+  font-size: 0.75rem;
+  list-style-type: none;
+  vertical-align: middle;
+}
+.other-popular-news > ul > li :before {
+  content: "\2022";
+  color: red;
+  font-weight: bold;
+  display: inline-block;
+  width: 1rem; 
+  font-size: 1rem;
+  margin-left: 0;
+
+}
+.other-popular-news > ul > li > a {
+  color: #6f6f6f;
+  text-decoration: none;
+  margin: 10px auto;
+}
+
+
+.popular-image {
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 1;
+  height: 275px;
+}
+.popular-box-article-1{
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/Whatsapp-bug-warning-368x276.jpg");
+}
+.popular-article {
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 100%);
+}
+.most-popular-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin: 5px 10px 5px 20px;
+  color: #fff;
+}
+.most-popular-title > a {
+  color: #fff;
+  text-decoration: none;
+}
+
+
+.popular-box-article-2{
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/what-is-macro-lens-header-image-368x276.png");  
+}
+.popular-box-article-3{
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/trainupscale-368x276.jpg");  
+}
+.popular-box-article-4{
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/Amazon-Dating-Featured-368x276.jpg");  
+}
+.popular-box-article-5{
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/buzzy-bees-368x276.jpg");  
+}
+.popular-box-article-6{
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/israel-tesla-autopilot-phantom-iamge-trick-danger-systems-driver-aids-hack-368x276.jpg");  
+}
+.popular-box-article-7{
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Amazon-Prime-Fresh-delivery-hed-368x276.jpg");  
+}
+.popular-box-article-8{
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/Hamilton-hed-368x276.jpg");  
 }
