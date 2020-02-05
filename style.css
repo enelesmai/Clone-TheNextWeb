@@ -6,7 +6,7 @@ body {
 }
 
 ul {
-  margin: auto;
+  margin: 0;
   padding: 0;
 }
 
@@ -16,15 +16,15 @@ ul {
 }
 
 .logo-min {
-  background-color: #f42;
-  width: 160px;
-  height: 95px;
+  background: linear-gradient(131deg, rgba(180,58,146,1) 0%, rgba(253,29,29,1) 60%, rgba(253,66,29,1) 100%);
+  width: 106px;
+  height: 80px;
   display: none;
 }
 
-.logo-link { 
+.logo-link {
   margin: auto;
-  width: 110px;
+  width: 70px;
 }
 
 .navs {
@@ -42,6 +42,7 @@ ul {
 }
 
 .main-menu {
+  font-size: 0.8rem;
   background-color: #000;
   color: #fff;
   height: 35px;
@@ -94,11 +95,12 @@ ul {
 
 .latest-menu {
   margin-left: 10px;
+  font-size: 0.8rem;
 }
 
 .latest-menu-search {
-  height: 60px;
-  background-color: #dfdfdf;
+  height: 45px;
+  background-color: #efefef;
   color: #6f6f6f;
   display: flex;
   flex-direction: row;
@@ -131,7 +133,7 @@ ul {
   align-items: center;
 }
 
-.bar-icon{
+.bar-icon {
   display: none;
   color: #f42;
 }
@@ -141,6 +143,7 @@ ul {
 }
 
 .header-message {
+  font-size: 0.8rem;
   background-color: #fd3;
   height: 35px;
   vertical-align: middle;
@@ -169,61 +172,70 @@ ul {
 .main-article-topic {
   font-size: 1rem;
   color: #fff;
-  position: relative;
-  top: 320px;   
-  margin-left: 25px; 
+  margin-left: 25px;
 }
+
 .main-article-author {
-  font-size: 0.75rem;   
+  font-size: 0.75rem;
   font-weight: 700;
-  margin: 0;  
-  position: relative;
-  top: 120px;   
-  margin-left: 25px; 
-  color: #ccc; 
+  margin: 0;
+  margin-left: 25px;
+  color: #ccc;
+  margin-bottom: 10px;
 }
+
 .main-article-author > span > a {
   color: #ccc; 
   text-decoration: none;
 }
 
-.first-main-article {    
-  background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/Soldier-Flickr-796x417.png');
+.first-main-article {
+  background-image: url('http s://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/Soldier-Flickr-796x417.png');
   z-index: 1;
   grid-row: 1 / span 2;
   grid-column: 1 / span 2;
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .first-main-article-container {
-  width: 100%; height: 100%;
+  width: 100%;
+  height: 100%;
   background-image: linear-gradient(355deg, rgba(1,1,1,1) 0%, rgba(203,33,21,0.7) 60%, rgba(255,255,255,1) 100%);
   z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
+
 .first-main-article-date {
-  float: right;
   color: #fff;
   padding: 15px;
+  float: right;
 }
+
 .first-main-article-title {
   font-size: 3.2rem;
   font-weight: 700;
-  margin: 0;  
-  position: relative;
-  top: 320px;   
-  margin-left: 25px; 
+  margin: 0;
+  margin-left: 25px;
 }
-.first-main-article-title > a{
+
+.first-main-article-title > a {
   text-decoration: none;
   color: #fff;
 }
-.first-main-article-author > span {
-  position: relative;
-  top: 325px;   
-  margin-left: 25px;  
-  color: #ccc;
-  font-size: 0.75rem;   
+
+.first-main-article-author {
+  margin-bottom: 10px;
 }
+
+.first-main-article-author > span {
+  margin-left: 25px;
+  color: #ccc;
+  font-size: 0.75rem;
+}
+
 .first-main-article-author > span > a {
   color: #ccc;   
   text-decoration: none;
@@ -250,8 +262,6 @@ ul {
   font-size: 2rem;
   font-weight: 700;
   margin: 0;  
-  position: relative;
-  top: 110px;   
   margin-left: 25px; 
 }
 .second-main-article-title > a{
@@ -274,10 +284,45 @@ ul {
   z-index: 2;
 }
 
+.row-top {
+  width: 100%;
+}
+
+.row-bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 100%;
+}
+
 /* CSS media query within a style sheet */
 @media (max-width: 1023px) {
   .logo-min {
     display: flex;
+  }
+
+  .TNW-Logo {
+    display: none;
+  }
+
+  .right-menu {
+    display: none;
+  }
+
+  .header-message > span {
+    margin-left: 120px;
+  }
+
+  .first-main-article-date {
+    display: none;
+  }
+
+  .first-main-article-title {
+    font-size: 2.6rem;
+  }
+
+  .second-main-article-title {
+    font-size: 1.4rem;
   }
 }
 
@@ -293,7 +338,7 @@ ul {
 
   .latest-menu-search {
     background-color: #fff;
-    height: 50px;
+    height: 48px;
   }
 
   .nav-icons {
@@ -305,25 +350,61 @@ ul {
 
   .search-icon {
     box-sizing: border-box;
-    height: 50px;
+    height: 48px;
     font-size: 1rem;
   }
 
   .bar-icon {
     display: flex;
     align-items: center;
-    height: 50px;
+    height: 48px;
     border-left: 1px #9f9f9f solid;
   }
 
   .logo-min {
-    width: 110px;
-    height: 50px;
+    width: 106px;
+    height: 48px;
     display: flex;
   }
 
   .logo-link {
     margin: auto;
-    width: 80px;
+    width: 65px;
+  }
+
+  .TNW-Logo {
+    display: none;
+  }
+
+  .header-message > span {
+    margin: auto;
+  }
+
+  .main-cover {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 215px);
+  }
+
+  .first-main-article {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .second-main-article {
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  .third-main-article {
+    grid-column: 1;
+    grid-row: 3;
+  }
+
+  .first-main-article-title {
+    font-size: 1.1rem;
+  }
+
+  .second-main-article-title {
+    font-size: 1.1rem;
   }
 }
