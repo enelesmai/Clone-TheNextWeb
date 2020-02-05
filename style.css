@@ -294,6 +294,84 @@ ul {
   justify-content: flex-end;
   height: 100%;
 }
+.latest-title {
+  margin-left: 50px;
+  color: #f42;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.latest-title > a{  
+  color: #f42;
+  text-decoration: none;
+}
+.latest-title > a:hover{  
+  color: #000;
+}
+
+.latest-news {
+  width: 100%;
+}
+.latest-deals {
+  width: 100%;
+}
+.deal-price-before {
+  color: #9f9f9f;
+  text-decoration: line-through;
+  font-size: 0.75rem;
+}
+.deal-price-now {
+  color: #3e3e3e;
+}
+.deal-price-container {
+  bottom: 0;
+}
+
+.news-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 25px;
+  max-width: 80%;
+    margin: 0 auto;
+}
+.news-box {
+  height: auto;  
+}
+.news-box > h4 {
+  margin: 0;
+}
+.news-box > h4 > a {
+  color: #000;
+  font-size: 1rem;
+  text-decoration: none;
+}
+.news-box > h4 > a:hover {
+  color: #f42;
+  text-decoration: underline;
+}
+.news-author-time {
+  font-size: 0.75rem;
+  color: #9f9f9f;
+  bottom: 150px;
+}
+.news-author-time > a {  
+  color: #9f9f9f;
+  text-decoration: none;
+}
+.news-author-time > a:hover {
+  color: #3e3e3e;  
+}
+
+.news-image {
+  height: 155px;
+  width: 100%;
+}
+.deal-image {
+  height: 200px;
+  width: 100%;
+}
+
+
 
 /* CSS media query within a style sheet */
 @media (max-width: 1023px) {
