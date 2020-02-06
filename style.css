@@ -328,7 +328,7 @@ ul {
   font-weight: 700;
   font-size: 1.5rem;
   width: 80%;
-max-width: 1200px;
+  max-width: 1200px;
 }
 
 .latest-title > a {
@@ -346,7 +346,7 @@ max-width: 1200px;
   font-weight: 700 !important;
   font-size: 1.5rem;
   width: 80%;
-max-width: 1200px;
+  max-width: 1200px;
 }
 
 .popular-topic > a {
@@ -386,7 +386,7 @@ max-width: 1200px;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 25px;
   width: 80%;
-max-width: 1200px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -440,8 +440,6 @@ max-width: 1200px;
   width: 100%;
 }
 
-/* Footer -------------------------------------------------------- */
-
 .footer-container {
   height: 250px;
   width: 100%;
@@ -453,7 +451,7 @@ max-width: 1200px;
 
 .social-networks-info {
   position: absolute;
-  top: 0px;
+  top: 0;
   min-height: 130px;
   width: 100%;
   background-color: #131313;
@@ -534,7 +532,7 @@ max-width: 1200px;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 25px;
   width: 80%;
-max-width: 1200px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -662,215 +660,219 @@ max-width: 1200px;
 }
 
 .latest-funding-container {
-    height: auto;
-    width: 100%;
+  height: auto;
+  width: 100%;
 }
 
 .latest-funding-header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-end;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
 }
 
 .latest-title > h3 {
-    font-size: 1.5rem;
-    margin: 0;
+  font-size: 1.5rem;
+  margin: 0;
 }
 
 .latest-title > h3 > a {
-    text-decoration: none;
-    color: #f42
+  text-decoration: none;
+  color: #f42;
 }
 
 .latest-title > h3 > a:hover {
-    color: #000
+  color: #000;
 }
 
 .header-funding-nav {
-    font-size: 1rem;
-    color: #f42;
-    width: auto;
-    height: auto;
-    position: relative;
-    top: 0;
-    right: 0;
-    text-align: right;
+  font-size: 1rem;
+  color: #f42;
+  width: auto;
+  height: auto;
+  position: relative;
+  top: 0;
+  right: 0;
+  text-align: right;
 }
+
 .without-borders {
   border: none !important;
 }
+
 .header-funding-nav > ul {
   list-style-type: none;
   display: flex;
-  flex-direction: row;  
+  flex-direction: row;
 }
-.header-funding-nav > ul > li{
+
+.header-funding-nav > ul > li {
   border-left: 2px solid #f42;
 }
+
 .header-funding-nav > ul > li > a {
-    text-decoration: none;
-    color: #f42;
-    margin: 0 10px;
-    font-weight: 100;
+  text-decoration: none;
+  color: #f42;
+  margin: 0 10px;
+  font-weight: 100;
 }
 
 .pull-right {
-    margin-right: 0 !important;
+  margin-right: 0 !important;
 }
 
 .header-funding-nav > ul > li > a:hover {
-    text-decoration: none;
-    color: #336;
+  text-decoration: none;
+  color: #336;
 }
 
 .funding-container {
-    width: 80%;
-    max-width: 1200px;
-    margin: 0 auto 20px auto;
-    height: 250px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-gap: 20px;
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto 20px auto;
+  height: 250px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
 }
 
 .funding-box {
-    background-color: #fffaf8;
-    display: grid;
-    grid-template-rows: 96px 82px 86px;
+  background-color: #fffaf8;
+  display: grid;
+  grid-template-rows: 96px 82px 86px;
 }
 
 .funding-header {
-    background: rgba(255,68,34,.08);
-    width: 100%;
-    text-decoration: none;
+  background: rgba(255, 68, 34, 0.08);
+  width: 100%;
+  text-decoration: none;
 }
 
 .header-top {
-    background-color: #f42;
-    height: 40px;
-    width: 100%;
+  background-color: #f42;
+  height: 40px;
+  width: 100%;
 }
 
 .header-top > h4 {
-    color: #fff;
-    margin: 0;
-    padding-left: 85px;
-    padding-top: 10px;
+  color: #fff;
+  margin: 0;
+  padding-left: 85px;
+  padding-top: 10px;
 }
 
 .funding-price {
-    height: auto;
-    padding-left: 85px;
-    padding-top: 5px;
+  height: auto;
+  padding-left: 85px;
+  padding-top: 5px;
 }
 
 .funding-link {
-    border-bottom: 1px solid #f42;
+  border-bottom: 1px solid #f42;
 }
 
 .funding-img {
-    position: relative;
-    top: 15px;
-    left: 15px;
-    height: 60px;
-    width: 60px;
-    float: left;
-    margin-top: -40px;
+  position: relative;
+  top: 15px;
+  left: 15px;
+  height: 60px;
+  width: 60px;
+  float: left;
+  margin-top: -40px;
 }
 
 .price-text {
-    color: #000;
-    font-weight: 700;
-    display: block;
+  color: #000;
+  font-weight: 700;
+  display: block;
 }
 
 .series-text {
-    color: #aaa;
-    font-weight: 100;
+  color: #aaa;
+  font-weight: 100;
 }
 
 .funding-link > ul {
-    padding: 15px;
-    list-style-type: none;
-    font-size: 0.9rem;
-    line-height: 1.8;
+  padding: 15px;
+  list-style-type: none;
+  font-size: 0.9rem;
+  line-height: 1.8;
 }
 
 .funding-link > ul > li > a {
-    text-decoration: none;
-    color: #555555;
-    font-size: 0.9rem;
+  text-decoration: none;
+  color: #555;
+  font-size: 0.9rem;
 }
 
 .funding-description {
-    padding: 15px;
+  padding: 15px;
 }
 
 .funding-description > span {
-    color: #555;
-    font-size: 0.75rem;
-    line-height: 1.5;
+  color: #555;
+  font-size: 0.75rem;
+  line-height: 1.5;
 }
 
 .funding-description > span > a {
-    text-decoration: none;
-    color: #888;
+  text-decoration: none;
+  color: #888;
 }
+
 .without-margin-left {
   margin-left: 0 !important;
 }
-/* CSS media query within a style sheet */
 
 @media (min-width: 768px) and (max-width: 1023px) {
-    .logo-min {
-      display: flex;
-    }
-  
-    .TNW-Logo {
-      display: none;
-    }
-  
-    .right-menu {
-      display: none;
-    }
-  
-    .header-message > span {
-      margin-left: 120px;
-    }
-  
-    .first-main-article-date {
-      display: none;
-    }
-  
-    .first-main-article-title {
-      font-size: 2.6rem;
-    }
-  
-    .second-main-article-title {
-      font-size: 1.4rem;
-    }
-  
-    .most-popular-container {
-      display: grid;
-      grid-template-columns: 50% 50%;
-      grid-gap: 25px;
-      width: 80%;
-max-width: 1200px;
-      margin: 0 auto;
-    }
-  
-    .news-container {
-      grid-template-columns: 1fr 1fr 1fr;
-    }
+  .logo-min {
+    display: flex;
+  }
 
-    .funding-container {
-      width: 80%;
-      margin: 0 auto 20px auto;
-      height: auto;
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
-      grid-gap: 20px;
+  .TNW-Logo {
+    display: none;
+  }
+
+  .right-menu {
+    display: none;
+  }
+
+  .header-message > span {
+    margin-left: 120px;
+  }
+
+  .first-main-article-date {
+    display: none;
+  }
+
+  .first-main-article-title {
+    font-size: 2.6rem;
+  }
+
+  .second-main-article-title {
+    font-size: 1.4rem;
+  }
+
+  .most-popular-container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 25px;
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .news-container {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .funding-container {
+    width: 80%;
+    margin: 0 auto 20px auto;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
   }
 
   .latest-funding-header {
@@ -883,152 +885,152 @@ max-width: 1200px;
   .header-funding-nav > ul {
     list-style-type: none;
     display: flex;
-    flex-direction: row; 
-    margin-top: 10px;     
+    flex-direction: row;
+    margin-top: 10px;
   }
-  .header-funding-nav > ul > li{
+
+  .header-funding-nav > ul > li {
     border-left: 2px solid #f42;
   }
+
   .header-funding-nav > ul > li > a {
-      text-decoration: none;
-      color: #f42;
-      margin: 0 10px;
-      font-weight: 100;
+    text-decoration: none;
+    color: #f42;
+    margin: 0 10px;
+    font-weight: 100;
   }
 }
 
-/* CSS media query within a style sheet */
-
 @media (max-width: 767px) {
-    .main-menu {
-      display: none;
-    }
-  
-    .latest-menu {
-      display: none;
-    }
-  
-    .latest-menu-search {
-      background-color: #fff;
-      height: 48px;
-    }
-  
-    .nav-icons {
-      display: flex;
-      align-items: center;
-      justify-content: flex-end;
-      width: 100%;
-    }
-  
-    .search-icon {
-      box-sizing: border-box;
-      height: 48px;
-      font-size: 1rem;
-    }
-  
-    .bar-icon {
-      display: flex;
-      align-items: center;
-      height: 48px;
-      border-left: 1px #9f9f9f solid;
-    }
-  
-    .logo-min {
-      width: 106px;
-      height: 48px;
-      display: flex;
-    }
-  
-    .logo-link {
-      margin: auto;
-      width: 65px;
-    }
-  
-    .TNW-Logo {
-      display: none;
-    }
-  
-    .header-message > span {
-      margin: auto;
-    }
-  
-    .main-cover {
-      grid-template-columns: 1fr;
-      grid-template-rows: repeat(3, 215px);
-    }
-  
-    .first-main-article {
-      grid-column: 1;
-      grid-row: 1;
-    }
-  
-    .second-main-article {
-      grid-column: 1;
-      grid-row: 2;
-    }
-  
-    .third-main-article {
-      grid-column: 1;
-      grid-row: 3;
-    }
-  
-    .first-main-article-title {
-      font-size: 1.1rem;
-    }
-  
-    .second-main-article-title {
-      font-size: 1.1rem;
-    }
-  
-    .news-container {
-      grid-template-columns: 1fr;
-    }
-  
-    .news-box {
-      height: auto;
-      display: flex;
-      flex-direction: row;
-    }
-  
-    .title-author-price {
-      margin-left: 10px;
-    }
-  
-    .news-image {
-      height: 100px;
-      width: 100px;
-    }
-  
-    .news-container {
-      margin: 0 auto;
-    }
-  
-    .latest-title {
-        margin: 25px auto;
-        width: 80%;
-max-width: 1200px;
-    }
-  
-    .most-popular-container {
-      display: flex;
-      flex-flow: column;
-      width: 80%;
-max-width: 1200px;
-      margin: 0 auto;
-    }
-  
-    .deal-image {
-      height: 100px;
-      width: 100px;
-    }
+  .main-menu {
+    display: none;
+  }
 
-    .funding-container {
-      width: 80%;
-      margin: 0 auto 20px auto;
-      height: auto;
-      display: grid;
-      grid-template-columns: 1fr;
-      grid-gap: 20px;
+  .latest-menu {
+    display: none;
+  }
+
+  .latest-menu-search {
+    background-color: #fff;
+    height: 48px;
+  }
+
+  .nav-icons {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+  }
+
+  .search-icon {
+    box-sizing: border-box;
+    height: 48px;
+    font-size: 1rem;
+  }
+
+  .bar-icon {
+    display: flex;
+    align-items: center;
+    height: 48px;
+    border-left: 1px #9f9f9f solid;
+  }
+
+  .logo-min {
+    width: 106px;
+    height: 48px;
+    display: flex;
+  }
+
+  .logo-link {
+    margin: auto;
+    width: 65px;
+  }
+
+  .TNW-Logo {
+    display: none;
+  }
+
+  .header-message > span {
+    margin: auto;
+  }
+
+  .main-cover {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 215px);
+  }
+
+  .first-main-article {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .second-main-article {
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  .third-main-article {
+    grid-column: 1;
+    grid-row: 3;
+  }
+
+  .first-main-article-title {
+    font-size: 1.1rem;
+  }
+
+  .second-main-article-title {
+    font-size: 1.1rem;
+  }
+
+  .news-container {
+    grid-template-columns: 1fr;
+  }
+
+  .news-box {
+    height: auto;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .title-author-price {
+    margin-left: 10px;
+  }
+
+  .news-image {
+    height: 100px;
+    width: 100px;
+  }
+
+  .news-container {
+    margin: 0 auto;
+  }
+
+  .latest-title {
+    margin: 25px auto;
+    width: 80%;
+    max-width: 1200px;
+  }
+
+  .most-popular-container {
+    display: flex;
+    flex-flow: column;
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .deal-image {
+    height: 100px;
+    width: 100px;
+  }
+
+  .funding-container {
+    width: 80%;
+    margin: 0 auto 20px auto;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
   }
 
   .latest-funding-header {
@@ -1045,20 +1047,22 @@ max-width: 1200px;
     top: 0;
     right: 0;
     text-align: left;
-}
+  }
 
   .header-funding-nav > ul {
     list-style-type: none;
-    display: block;    
-    margin-top: 10px;     
+    display: block;
+    margin-top: 10px;
   }
-  .header-funding-nav > ul > li{
+
+  .header-funding-nav > ul > li {
     border-left: none;
   }
+
   .header-funding-nav > ul > li > a {
-      text-decoration: none;
-      color: #f42;
-      margin: 0;
-      font-weight: 100;
+    text-decoration: none;
+    color: #f42;
+    margin: 0;
+    font-weight: 100;
   }
 }
