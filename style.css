@@ -78,31 +78,6 @@ ul {
   flex-direction: row;
 }
 
-.main-article-author > span > a {
-  color: #ccc;
-  text-decoration: none;
-}
-
-.most-popular-author > span > a {
-  color: #ccc;
-  text-decoration: none;
-}
-
-.first-main-article-title > a {
-  text-decoration: none;
-  color: #fff;
-}
-
-.first-main-article-author > span > a {
-  color: #ccc;
-  text-decoration: none;
-}
-
-.second-main-article-title > a {
-  text-decoration: none;
-  color: #fff;
-}
-
 .latest-title > a {
   color: #f42;
   text-decoration: none;
@@ -110,12 +85,6 @@ ul {
 
 .popular-topic > a {
   color: #f42;
-  text-decoration: none;
-}
-
-.news-box > div > h4 > a {
-  color: #000;
-  font-size: 1rem;
   text-decoration: none;
 }
 
@@ -130,14 +99,33 @@ ul {
   font-weight: 900;
 }
 
-.other-popular-news > ul > li > a {
-  color: #6f6f6f;
-  text-decoration: none;
-  margin: 10px auto;
-}
-
 .most-popular-title > a {
   color: #fff;
+  text-decoration: none;
+}
+
+.first-main-article-title > a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.second-main-article-title > a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.main-article-author > span > a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+.most-popular-author > span > a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+.first-main-article-author > span > a {
+  color: #ccc;
   text-decoration: none;
 }
 
@@ -149,6 +137,18 @@ ul {
 .funding-description > span > a {
   text-decoration: none;
   color: #888;
+}
+
+.news-box > div > h4 > a {
+  color: #000;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+.other-popular-news > ul > li > a {
+  color: #6f6f6f;
+  text-decoration: none;
+  margin: 10px auto;
 }
 
 .left-menu > ul > li > a {
