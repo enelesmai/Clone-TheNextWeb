@@ -443,7 +443,7 @@ ul {
   width: 100%;
   background-color: #000;
   color: #aaa;
-  position: absolute;
+  position: relative;
   bottom: 0;
 }
 
@@ -682,18 +682,29 @@ ul {
     right: 0;
     text-align: right;
 }
-
-.header-funding-nav > span > a {
+.without-borders {
+  border: none !important;
+}
+.header-funding-nav > ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;  
+}
+.header-funding-nav > ul > li{
+  border-left: 2px solid #f42;
+}
+.header-funding-nav > ul > li > a {
     text-decoration: none;
     color: #f42;
     margin: 0 10px;
+    font-weight: 100;
 }
 
 .pull-right {
     margin-right: 0 !important;
 }
 
-.header-funding-nav > span > a:hover {
+.header-funding-nav > ul > li > a:hover {
     text-decoration: none;
     color: #336;
 }
@@ -791,7 +802,9 @@ ul {
     text-decoration: none;
     color: #888;
 }
-
+.without-margin-left {
+  margin-left: 0 !important;
+}
 /* CSS media query within a style sheet */
 
 @media (min-width: 768px) and (max-width: 1023px) {
@@ -834,6 +847,38 @@ ul {
     .news-container {
       grid-template-columns: 1fr 1fr 1fr;
     }
+
+    .funding-container {
+      width: 80%;
+      margin: 0 auto 20px auto;
+      height: auto;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-gap: 20px;
+  }
+
+  .latest-funding-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .header-funding-nav > ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row; 
+    margin-top: 10px;     
+  }
+  .header-funding-nav > ul > li{
+    border-left: 2px solid #f42;
+  }
+  .header-funding-nav > ul > li > a {
+      text-decoration: none;
+      color: #f42;
+      margin: 0 10px;
+      font-weight: 100;
+  }
 }
 
 /* CSS media query within a style sheet */
@@ -951,11 +996,51 @@ ul {
       display: flex;
       flex-flow: column;
       max-width: 80%;
-      margin: 0 50px;
+      margin: 0 auto;
     }
   
     .deal-image {
       height: 100px;
       width: 100px;
     }
+
+    .funding-container {
+      width: 80%;
+      margin: 0 auto 20px auto;
+      height: auto;
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-gap: 20px;
+  }
+
+  .latest-funding-header {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .header-funding-nav {
+    font-size: 1rem;
+    color: #f42;
+    width: auto;
+    height: auto;
+    position: relative;
+    top: 0;
+    right: 0;
+    text-align: left;
+}
+
+  .header-funding-nav > ul {
+    list-style-type: none;
+    display: block;    
+    margin-top: 10px;     
+  }
+  .header-funding-nav > ul > li{
+    border-left: none;
+  }
+  .header-funding-nav > ul > li > a {
+      text-decoration: none;
+      color: #f42;
+      margin: 0;
+      font-weight: 100;
+  }
 }
