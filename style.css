@@ -78,10 +78,124 @@ ul {
   flex-direction: row;
 }
 
+.main-article-author > span > a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+.most-popular-author > span > a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+.first-main-article-title > a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.first-main-article-author > span > a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+.second-main-article-title > a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.latest-title > a {
+  color: #f42;
+  text-decoration: none;
+}
+
+.popular-topic > a {
+  color: #f42;
+  text-decoration: none;
+}
+
+.news-box > div > h4 > a {
+  color: #000;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+.news-author-time > a {
+  color: #9f9f9f;
+  text-decoration: none;
+}
+
+.second-popular-title > a {
+  color: #f42;
+  text-decoration: none;
+  font-weight: 900;
+}
+
+.other-popular-news > ul > li > a {
+  color: #6f6f6f;
+  text-decoration: none;
+  margin: 10px auto;
+}
+
+.most-popular-title > a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.latest-title > h3 > a {
+  text-decoration: none;
+  color: #f42;
+}
+
+.funding-description > span > a {
+  text-decoration: none;
+  color: #888;
+}
+
 .left-menu > ul > li > a {
   margin: 5px 10px;
   color: #ccc;
   text-decoration: none;
+}
+
+.right-menu > ul > li > a {
+  margin: 5px 10px;
+  color: #ccc;
+  text-decoration: none;
+}
+
+.latest-menu > ul > li > a {
+  margin: 10px 14px;
+  color: #6f6f6f;
+  text-decoration: none;
+}
+
+.header-funding-nav > ul > li > a {
+  text-decoration: none;
+  color: #f42;
+  margin: 0 10px;
+  font-weight: 100;
+}
+
+.funding-link > ul > li > a {
+  text-decoration: none;
+  color: #555;
+  font-size: 0.9rem;
+}
+
+.latest-title > a:hover {
+  color: #000;
+}
+
+.popular-topic > a:hover {
+  color: #000;
+}
+
+.news-author-time > a:hover {
+  color: #3e3e3e;
+}
+
+.latest-title > h3 > a:hover {
+  color: #000;
 }
 
 .left-menu > ul > li > a:hover {
@@ -97,12 +211,6 @@ ul {
   list-style-type: none;
   display: flex;
   flex-direction: row;
-}
-
-.right-menu > ul > li > a {
-  margin: 5px 10px;
-  color: #ccc;
-  text-decoration: none;
 }
 
 .right-menu > ul > li > a:hover {
@@ -130,12 +238,6 @@ ul {
   list-style-type: none;
   display: flex;
   flex-direction: row;
-}
-
-.latest-menu > ul > li > a {
-  margin: 10px 14px;
-  color: #6f6f6f;
-  text-decoration: none;
 }
 
 .latest-menu > ul > li > a:hover {
@@ -216,16 +318,6 @@ ul {
   margin-bottom: 10px;
 }
 
-.main-article-author > span > a {
-  color: #ccc;
-  text-decoration: none;
-}
-
-.most-popular-author > span > a {
-  color: #ccc;
-  text-decoration: none;
-}
-
 .first-main-article {
   background-image: url('http s://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/Soldier-Flickr-796x417.png');
   z-index: 1;
@@ -258,11 +350,6 @@ ul {
   margin-left: 25px;
 }
 
-.first-main-article-title > a {
-  text-decoration: none;
-  color: #fff;
-}
-
 .first-main-article-author {
   margin-bottom: 10px;
 }
@@ -271,11 +358,6 @@ ul {
   margin-left: 25px;
   color: #ccc;
   font-size: 0.75rem;
-}
-
-.first-main-article-author > span > a {
-  color: #ccc;
-  text-decoration: none;
 }
 
 .first-main-article-author > span > a :hover {
@@ -304,11 +386,6 @@ ul {
   font-weight: 700;
   margin: 0;
   margin-left: 25px;
-}
-
-.second-main-article-title > a {
-  text-decoration: none;
-  color: #fff;
 }
 
 .third-main-article {
@@ -348,15 +425,6 @@ ul {
   max-width: 1200px;
 }
 
-.latest-title > a {
-  color: #f42;
-  text-decoration: none;
-}
-
-.latest-title > a:hover {
-  color: #000;
-}
-
 .popular-topic {
   margin: 20px 0;
   color: #f42;
@@ -364,15 +432,6 @@ ul {
   font-size: 1.5rem;
   width: 80%;
   max-width: 1200px;
-}
-
-.popular-topic > a {
-  color: #f42;
-  text-decoration: none;
-}
-
-.popular-topic > a:hover {
-  color: #000;
 }
 
 .latest-news {
@@ -413,14 +472,15 @@ ul {
   flex-direction: column;
 }
 
-.news-box > div > h4 {
+.header-top > h4 {
+  color: #fff;
   margin: 0;
+  padding-left: 85px;
+  padding-top: 10px;
 }
 
-.news-box > div > h4 > a {
-  color: #000;
-  font-size: 1rem;
-  text-decoration: none;
+.news-box > div > h4 {
+  margin: 0;
 }
 
 .news-box > div > h4 > a:hover {
@@ -432,15 +492,6 @@ ul {
   font-size: 0.75rem;
   color: #9f9f9f;
   bottom: 150px;
-}
-
-.news-author-time > a {
-  color: #9f9f9f;
-  text-decoration: none;
-}
-
-.news-author-time > a:hover {
-  color: #3e3e3e;
 }
 
 .news-image {
@@ -501,7 +552,6 @@ ul {
   font-size: 1rem;
   color: #fff;
   text-decoration: none;
-  display: flex;
   justify-content: center;
   align-items: center;
 }
@@ -576,12 +626,6 @@ ul {
   box-sizing: border-box;
 }
 
-.second-popular-title > a {
-  color: #f42;
-  text-decoration: none;
-  font-weight: 900;
-}
-
 .second-popular-img > img {
   height: 96px;
   width: 96px;
@@ -613,12 +657,6 @@ ul {
   margin-left: 0;
 }
 
-.other-popular-news > ul > li > a {
-  color: #6f6f6f;
-  text-decoration: none;
-  margin: 10px auto;
-}
-
 .popular-image {
   background-repeat: no-repeat;
   background-size: cover;
@@ -641,11 +679,6 @@ ul {
   font-weight: 700;
   margin: 5px 10px 5px 10px;
   color: #fff;
-}
-
-.most-popular-title > a {
-  color: #fff;
-  text-decoration: none;
 }
 
 .popular-box-article-2 {
@@ -693,15 +726,6 @@ ul {
   margin: 0;
 }
 
-.latest-title > h3 > a {
-  text-decoration: none;
-  color: #f42;
-}
-
-.latest-title > h3 > a:hover {
-  color: #000;
-}
-
 .header-funding-nav {
   font-size: 1rem;
   color: #f42;
@@ -725,13 +749,6 @@ ul {
 
 .header-funding-nav > ul > li {
   border-left: 2px solid #f42;
-}
-
-.header-funding-nav > ul > li > a {
-  text-decoration: none;
-  color: #f42;
-  margin: 0 10px;
-  font-weight: 100;
 }
 
 .pull-right {
@@ -769,13 +786,6 @@ ul {
   background-color: #f42;
   height: 40px;
   width: 100%;
-}
-
-.header-top > h4 {
-  color: #fff;
-  margin: 0;
-  padding-left: 85px;
-  padding-top: 10px;
 }
 
 .funding-price {
@@ -816,12 +826,6 @@ ul {
   line-height: 1.8;
 }
 
-.funding-link > ul > li > a {
-  text-decoration: none;
-  color: #555;
-  font-size: 0.9rem;
-}
-
 .funding-description {
   padding: 15px;
 }
@@ -830,11 +834,6 @@ ul {
   color: #555;
   font-size: 0.75rem;
   line-height: 1.5;
-}
-
-.funding-description > span > a {
-  text-decoration: none;
-  color: #888;
 }
 
 .without-margin-left {
@@ -1001,6 +1000,7 @@ ul {
 
   .news-container {
     grid-template-columns: 1fr;
+    margin: 0 auto;
   }
 
   .news-box {
@@ -1016,10 +1016,6 @@ ul {
   .news-image {
     height: 100px;
     width: 100px;
-  }
-
-  .news-container {
-    margin: 0 auto;
   }
 
   .latest-title {
