@@ -10,6 +10,12 @@ ul {
   padding: 0;
 }
 
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
 .header-container {
   display: flex;
   flex-direction: row;
@@ -20,6 +26,16 @@ ul {
   width: 106px;
   height: 80px;
   display: none;
+}
+
+.logo-min-scrolling {
+  display: flex;
+  z-index: 99;
+  height: 45px;
+}
+
+.latest-menu-scrolling {
+  margin-left: 100px !important;
 }
 
 .logo-link {
@@ -106,6 +122,7 @@ ul {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  z-index: 5;
 }
 
 .latest-menu > ul {
@@ -127,8 +144,8 @@ ul {
 
 .search-icon {
   font-size: 1.5rem;
-  border-left: 1px #9f9f9f solid;
-  height: 100%;
+  border-left: 1px #e6e3e3 solid;
+  height: 45px;
   display: flex;
   align-items: center;
 }
