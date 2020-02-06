@@ -655,6 +655,143 @@ ul {
   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/Hamilton-hed-368x276.jpg");
 }
 
+.latest-funding-container {
+    height: auto;
+    width: 100%;
+}
+
+.latest-funding-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.latest-title > h3 {
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.header-funding-nav {
+    font-size: 1rem;
+    color: #f42;
+    width: auto;
+    height: auto;
+    position: relative;
+    top: 0;
+    right: 0;
+    text-align: right;
+}
+
+.header-funding-nav > span > a {
+    text-decoration: none;
+    color: #f42;
+    margin: 0 10px;
+}
+
+.pull-right {
+    margin-right: 0 !important;
+}
+
+.header-funding-nav > span > a:hover {
+    text-decoration: none;
+    color: #336;
+}
+
+.funding-container {
+    width: 80%;
+    margin: 0 auto 20px auto;
+    height: 250px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.funding-box {
+    background-color: #fffaf8;
+    display: grid;
+    grid-template-rows: 96px 82px 86px;
+}
+
+.funding-header {
+    background: rgba(255,68,34,.08);
+    width: 100%;
+    text-decoration: none;
+}
+
+.header-top {
+    background-color: #f42;
+    height: 40px;
+    width: 100%;
+}
+
+.header-top > h4 {
+    color: #fff;
+    margin: 0;
+    padding-left: 85px;
+    padding-top: 10px;
+}
+
+.funding-price {
+    height: auto;
+    width: 100%;
+    padding-left: 85px;
+    padding-top: 5px;
+}
+
+.funding-link {
+    border-bottom: 1px solid #f42;
+}
+
+.funding-img {
+    position: relative;
+    top: 15px;
+    left: 15px;
+    height: 60px;
+    width: 60px;
+    float: left;
+    margin-top: -40px;
+}
+
+.price-text {
+    color: #000;
+    font-weight: 700;
+    display: block;
+}
+
+.series-text {
+    color: #aaa;
+    font-weight: 100;
+}
+
+.funding-link > ul {
+    padding: 15px;
+    list-style-type: none;
+    font-size: 0.9rem;
+    line-height: 1.8;
+}
+
+.funding-link > ul > li > a {
+    text-decoration: none;
+    color: #555555;
+    font-size: 0.9rem;
+}
+
+.funding-description {
+    padding: 15px;
+}
+
+.funding-description > span {
+    color: #555;
+    font-size: 0.75rem;
+    line-height: 1.5;
+}
+
+.funding-description > span > a {
+    text-decoration: none;
+    color: #888;
+}
+
 /* CSS media query within a style sheet */
 
 @media (min-width: 768px) and (max-width: 1023px) {
