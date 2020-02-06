@@ -327,7 +327,8 @@ ul {
   color: #f42;
   font-weight: 700;
   font-size: 1.5rem;
-  max-width: 80%;
+  width: 80%;
+max-width: 1200px;
 }
 
 .latest-title > a {
@@ -344,7 +345,8 @@ ul {
   color: #f42;
   font-weight: 700 !important;
   font-size: 1.5rem;
-  max-width: 80%;
+  width: 80%;
+max-width: 1200px;
 }
 
 .popular-topic > a {
@@ -362,6 +364,7 @@ ul {
 
 .latest-deals {
   width: 100%;
+  margin-bottom: 30px;
 }
 
 .deal-price-before {
@@ -382,7 +385,8 @@ ul {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 25px;
-  max-width: 80%;
+  width: 80%;
+max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -449,7 +453,7 @@ ul {
 
 .social-networks-info {
   position: absolute;
-  top: 20px;
+  top: 0px;
   min-height: 130px;
   width: 100%;
   background-color: #131313;
@@ -511,6 +515,7 @@ ul {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  text-align: center;
 }
 
 .powered-by-mini-logo {
@@ -528,7 +533,8 @@ ul {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 25px;
-  max-width: 80%;
+  width: 80%;
+max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -672,6 +678,15 @@ ul {
     margin: 0;
 }
 
+.latest-title > h3 > a {
+    text-decoration: none;
+    color: #f42
+}
+
+.latest-title > h3 > a:hover {
+    color: #000
+}
+
 .header-funding-nav {
     font-size: 1rem;
     color: #f42;
@@ -711,6 +726,7 @@ ul {
 
 .funding-container {
     width: 80%;
+    max-width: 1200px;
     margin: 0 auto 20px auto;
     height: 250px;
     display: grid;
@@ -745,7 +761,6 @@ ul {
 
 .funding-price {
     height: auto;
-    width: 100%;
     padding-left: 85px;
     padding-top: 5px;
 }
@@ -840,7 +855,8 @@ ul {
       display: grid;
       grid-template-columns: 50% 50%;
       grid-gap: 25px;
-      max-width: 80%;
+      width: 80%;
+max-width: 1200px;
       margin: 0 auto;
     }
   
@@ -984,18 +1000,20 @@ ul {
     }
   
     .news-container {
-      margin: 0 50px;
+      margin: 0 auto;
     }
   
     .latest-title {
-      margin: 25px 50px;
-      max-width: 100%;
+        margin: 25px auto;
+        width: 80%;
+max-width: 1200px;
     }
   
     .most-popular-container {
       display: flex;
       flex-flow: column;
-      max-width: 80%;
+      width: 80%;
+max-width: 1200px;
       margin: 0 auto;
     }
   
