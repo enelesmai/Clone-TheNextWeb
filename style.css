@@ -912,7 +912,14 @@ ul {
   .header-funding-nav > ul > li > a {
     text-decoration: none;
     color: #f42;
-    margin: 0 10px 0 0;
+    margin: 0 0 0 10px;
+    font-weight: 100;
+  }
+
+  .header-funding-nav > ul > li > .without-margin-left {
+    text-decoration: none;
+    color: #f42;
+    margin: 0;
     font-weight: 100;
   }
 }
@@ -1077,5 +1084,10 @@ ul {
     color: #f42;
     margin: 0;
     font-weight: 100;
+  }
+
+  .left-red-border {
+    border: none;
+    margin-left: 0;
   }
 }
