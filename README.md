@@ -32,6 +32,7 @@ You can find the original project specification at: https://www.theodinproject.c
 - Github: [@enelesmai](https://github.com/enelesmai)
 - Twitter: [@enelesmai](https://twitter.com/enelesmai)
 - Linkedin: [xochitlselene](https://linkedin.com/in/xochitlselene)
+- [![Is enelesmai available for hire?](http://hireable.me/enelesmai)](http://hireable.me/p/enelesmai)
 
 👤 **Sergio Mauricio Zambrano**
 
