@@ -21,6 +21,10 @@ ul {
   flex-direction: row;
 }
 
+.color-ccc {
+  color: #ccc;
+}
+
 .logo-min {
   background: linear-gradient(131deg, rgba(180, 58, 146, 1) 0%, rgba(253, 29, 29, 1) 60%, rgba(253, 66, 29, 1) 100%);
   width: 106px;
@@ -32,10 +36,6 @@ ul {
   display: flex;
   z-index: 99;
   height: 45px;
-}
-
-.latest-menu-scrolling {
-  margin-left: 100px !important;
 }
 
 .logo-link {
@@ -153,8 +153,12 @@ ul {
 
 .left-menu > ul > li > a {
   margin: 5px 10px;
-  color: #ccc;
   text-decoration: none;
+}
+
+.main-link {
+  font-weight: 300;
+  color: #fff;
 }
 
 .right-menu > ul > li > a {
@@ -172,7 +176,7 @@ ul {
 .header-funding-nav > ul > li > a {
   text-decoration: none;
   color: #f42;
-  margin: 0 10px;
+  margin: 0 0 0 10px;
   font-weight: 100;
 }
 
@@ -202,11 +206,6 @@ ul {
   color: #fff;
 }
 
-.main-link {
-  font-weight: 300 !important;
-  color: #fff !important;
-}
-
 .right-menu > ul {
   list-style-type: none;
   display: flex;
@@ -220,6 +219,10 @@ ul {
 .latest-menu {
   margin-left: 10px;
   font-size: 0.8rem;
+}
+
+.latest-menu-scrolling {
+  margin-left: 100px;
 }
 
 .latest-menu-search {
@@ -428,7 +431,7 @@ ul {
 .popular-topic {
   margin: 20px 0;
   color: #f42;
-  font-weight: 700 !important;
+  font-weight: 700;
   font-size: 1.5rem;
   width: 80%;
   max-width: 1200px;
@@ -738,7 +741,7 @@ ul {
 }
 
 .without-borders {
-  border: none !important;
+  border: none;
 }
 
 .header-funding-nav > ul {
@@ -747,12 +750,9 @@ ul {
   flex-direction: row;
 }
 
-.header-funding-nav > ul > li {
+.left-red-border {
   border-left: 2px solid #f42;
-}
-
-.pull-right {
-  margin-right: 0 !important;
+  margin-left: 10px;
 }
 
 .header-funding-nav > ul > li > a:hover {
@@ -837,7 +837,11 @@ ul {
 }
 
 .without-margin-left {
-  margin-left: 0 !important;
+  margin-left: 0;
+}
+
+.pull-right {
+  margin-right: 0;
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
@@ -905,14 +909,10 @@ ul {
     margin-top: 10px;
   }
 
-  .header-funding-nav > ul > li {
-    border-left: 2px solid #f42;
-  }
-
   .header-funding-nav > ul > li > a {
     text-decoration: none;
     color: #f42;
-    margin: 0 10px;
+    margin: 0 10px 0 0;
     font-weight: 100;
   }
 }
