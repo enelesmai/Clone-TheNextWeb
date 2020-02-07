@@ -1,0 +1,1093 @@
+body {
+  font-size: 16px;
+  font-weight: 100;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.color-ccc {
+  color: #ccc;
+}
+
+.logo-min {
+  background: linear-gradient(131deg, rgba(180, 58, 146, 1) 0%, rgba(253, 29, 29, 1) 60%, rgba(253, 66, 29, 1) 100%);
+  width: 106px;
+  height: 80px;
+  display: none;
+}
+
+.logo-min-scrolling {
+  display: flex;
+  z-index: 99;
+  height: 45px;
+}
+
+.logo-link {
+  margin: auto;
+  width: 70px;
+}
+
+.navs {
+  width: 100%;
+}
+
+.TNW-Logo {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg");
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 300px;
+  height: 150px;
+  float: left;
+  margin: 25px;
+}
+
+.main-menu {
+  font-size: 0.8rem;
+  background-color: #000;
+  color: #fff;
+  height: 35px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left-menu {
+  margin-left: 15px;
+}
+
+.left-menu > ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.latest-title > a {
+  color: #f42;
+  text-decoration: none;
+}
+
+.popular-topic > a {
+  color: #f42;
+  text-decoration: none;
+}
+
+.news-author-time > a {
+  color: #9f9f9f;
+  text-decoration: none;
+}
+
+.second-popular-title > a {
+  color: #f42;
+  text-decoration: none;
+  font-weight: 900;
+}
+
+.most-popular-title > a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.first-main-article-title > a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.second-main-article-title > a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.main-article-author > span > a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+.most-popular-author > span > a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+.first-main-article-author > span > a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+.latest-title > h3 > a {
+  text-decoration: none;
+  color: #f42;
+}
+
+.funding-description > span > a {
+  text-decoration: none;
+  color: #888;
+}
+
+.news-box > div > h4 > a {
+  color: #000;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+.other-popular-news > ul > li > a {
+  color: #6f6f6f;
+  text-decoration: none;
+  margin: 10px auto;
+}
+
+.left-menu > ul > li > a {
+  margin: 5px 10px;
+  text-decoration: none;
+}
+
+.main-link {
+  font-weight: 300;
+  color: #fff;
+}
+
+.right-menu > ul > li > a {
+  margin: 5px 10px;
+  color: #ccc;
+  text-decoration: none;
+}
+
+.latest-menu > ul > li > a {
+  margin: 10px 14px;
+  color: #6f6f6f;
+  text-decoration: none;
+}
+
+.header-funding-nav > ul > li > a {
+  text-decoration: none;
+  color: #f42;
+  margin: 0 0 0 10px;
+  font-weight: 100;
+}
+
+.funding-link > ul > li > a {
+  text-decoration: none;
+  color: #555;
+  font-size: 0.9rem;
+}
+
+.latest-title > a:hover {
+  color: #000;
+}
+
+.popular-topic > a:hover {
+  color: #000;
+}
+
+.news-author-time > a:hover {
+  color: #3e3e3e;
+}
+
+.latest-title > h3 > a:hover {
+  color: #000;
+}
+
+.left-menu > ul > li > a:hover {
+  color: #fff;
+}
+
+.right-menu > ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.right-menu > ul > li > a:hover {
+  color: #fff;
+}
+
+.latest-menu {
+  margin-left: 10px;
+  font-size: 0.8rem;
+}
+
+.latest-menu-scrolling {
+  margin-left: 100px;
+}
+
+.latest-menu-search {
+  height: 45px;
+  background-color: #efefef;
+  color: #6f6f6f;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 5;
+}
+
+.latest-menu > ul {
+  font-weight: 600;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.latest-menu > ul > li > a:hover {
+  color: #3e3e3e;
+}
+
+.search-icon {
+  font-size: 1.5rem;
+  border-left: 1px #e6e3e3 solid;
+  height: 45px;
+  display: flex;
+  align-items: center;
+}
+
+.bar-icon {
+  display: none;
+  color: #f42;
+}
+
+.search-icon:hover {
+  color: #3e3e3e;
+}
+
+.header-message {
+  font-size: 0.8rem;
+  background-color: #fd3;
+  height: 35px;
+  vertical-align: middle;
+  color: black;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.header-message > span {
+  margin-left: 20px;
+}
+
+.margin-25px {
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.main-cover {
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 250px 250px;
+}
+
+.main-article-topic {
+  font-size: 1rem;
+  color: #fff;
+  margin-left: 25px;
+}
+
+.most-popular {
+  font-size: 1rem;
+  color: #fff;
+  margin-left: 10px;
+}
+
+.main-article-author {
+  font-size: 0.75rem;
+  font-weight: 700;
+  margin: 0;
+  margin-left: 25px;
+  color: #ccc;
+  margin-bottom: 10px;
+}
+
+.most-popular-author {
+  font-size: 0.75rem;
+  font-weight: 700;
+  margin: 0;
+  margin-left: 10px;
+  color: #ccc;
+  margin-bottom: 10px;
+}
+
+.first-main-article {
+  background-image: url('http s://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/Soldier-Flickr-796x417.png');
+  z-index: 1;
+  grid-row: 1 / span 2;
+  grid-column: 1 / span 2;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.first-main-article-container {
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(355deg, rgba(1, 1, 1, 1) 0%, rgba(203, 33, 21, 0.7) 60%, rgba(255, 255, 255, 1) 100%);
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.first-main-article-date {
+  color: #fff;
+  padding: 15px;
+  float: right;
+}
+
+.first-main-article-title {
+  font-size: 3.2rem;
+  font-weight: 700;
+  margin: 0;
+  margin-left: 25px;
+}
+
+.first-main-article-author {
+  margin-bottom: 10px;
+}
+
+.first-main-article-author > span {
+  margin-left: 25px;
+  color: #ccc;
+  font-size: 0.75rem;
+}
+
+.first-main-article-author > span > a :hover {
+  color: #fff;
+}
+
+.second-main-article {
+  background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/whatsapp-android-google-play-disappear-796x419.jpg');
+  z-index: 1;
+  grid-column: 3;
+  grid-row: 1;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: -35px;
+}
+
+.second-main-article-container {
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(255, 255, 255, 0) 100%);
+  z-index: 2;
+}
+
+.second-main-article-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0;
+  margin-left: 25px;
+}
+
+.third-main-article {
+  background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/PS5-796x417.jpg');
+  z-index: 1;
+  grid-column: 3;
+  grid-row: 2;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: -35px;
+}
+
+.third-main-article-container {
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(255, 255, 255, 0) 100%);
+  z-index: 2;
+}
+
+.row-top {
+  width: 100%;
+}
+
+.row-bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 100%;
+}
+
+.latest-title {
+  margin: 25px auto;
+  color: #f42;
+  font-weight: 700;
+  font-size: 1.5rem;
+  width: 80%;
+  max-width: 1200px;
+}
+
+.popular-topic {
+  margin: 20px 0;
+  color: #f42;
+  font-weight: 700;
+  font-size: 1.5rem;
+  width: 80%;
+  max-width: 1200px;
+}
+
+.latest-news {
+  width: 100%;
+}
+
+.latest-deals {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.deal-price-before {
+  color: #9f9f9f;
+  text-decoration: line-through;
+  font-size: 0.75rem;
+}
+
+.deal-price-now {
+  color: #3e3e3e;
+}
+
+.deal-price-container {
+  bottom: 0;
+}
+
+.news-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 25px;
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.news-box {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.header-top > h4 {
+  color: #fff;
+  margin: 0;
+  padding-left: 85px;
+  padding-top: 10px;
+}
+
+.news-box > div > h4 {
+  margin: 0;
+}
+
+.news-box > div > h4 > a:hover {
+  color: #f42;
+  text-decoration: underline;
+}
+
+.news-author-time {
+  font-size: 0.75rem;
+  color: #9f9f9f;
+  bottom: 150px;
+}
+
+.news-image {
+  height: 155px;
+  width: 100%;
+}
+
+.title-author-price {
+  margin-left: 0;
+}
+
+.deal-image {
+  height: 200px;
+  width: 100%;
+}
+
+.footer-container {
+  height: 250px;
+  width: 100%;
+  background-color: #000;
+  color: #aaa;
+  position: relative;
+  bottom: 0;
+}
+
+.social-networks-info {
+  position: absolute;
+  top: 0;
+  min-height: 130px;
+  width: 100%;
+  background-color: #131313;
+  color: #aaa;
+}
+
+.footer-content {
+  background-color: transparent;
+  max-width: 750px;
+  position: relative;
+  margin: auto;
+}
+
+.footer-ul {
+  list-style-type: none;
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer-button {
+  height: 40px;
+  width: 40px;
+  background-color: #333;
+  border-radius: 50%;
+  display: flex;
+  margin: 0 10px;
+  font-size: 1rem;
+  color: #fff;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-button:hover {
+  background-color: #000;
+  border: 1px solid #333;
+}
+
+.footer-link {
+  color: #aaa;
+  text-decoration: none;
+  font-size: 0.75rem;
+  margin: 0 10px;
+}
+
+.footer-link:hover {
+  color: #fff;
+}
+
+.powered-by {
+  position: relative;
+  top: 185px;
+  display: flex;
+  font-size: 0.75rem;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.powered-by-mini-logo {
+  height: 10px;
+}
+
+.red-font {
+  color: #f42;
+  font-weight: 700;
+}
+
+/* MOST POPULAR */
+
+.most-popular-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 25px;
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.popular-box {
+  width: 100%;
+}
+
+.second-popular-news {
+  height: 96px;
+  background-color: rgba(255, 68, 34, 0.06);
+  font-size: 0.9rem;
+  margin: 2px 0;
+}
+
+.second-popular-img {
+  float: right;
+}
+
+.second-popular-title {
+  color: #f42;
+  float: left;
+  width: calc(100% - 96px);
+  padding: 10px 5px 0 10px;
+  box-sizing: border-box;
+}
+
+.second-popular-img > img {
+  height: 96px;
+  width: 96px;
+}
+
+.other-popular-news {
+  color: #6f6f6f;
+}
+
+.other-popular-news > ul {
+  list-style: none;
+}
+
+.other-popular-news > ul > li {
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+  font-size: 0.75rem;
+  list-style-type: none;
+  vertical-align: middle;
+}
+
+.other-popular-news > ul > li::before {
+  content: "\2022";
+  color: red;
+  font-weight: bold;
+  display: inline-block;
+  width: 1rem;
+  font-size: 1rem;
+  margin-left: 0;
+}
+
+.popular-image {
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 1;
+  height: 275px;
+}
+
+.popular-box-article-1 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/Whatsapp-bug-warning-368x276.jpg");
+}
+
+.popular-article {
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+.most-popular-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin: 5px 10px 5px 10px;
+  color: #fff;
+}
+
+.popular-box-article-2 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/what-is-macro-lens-header-image-368x276.png");
+}
+
+.popular-box-article-3 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/trainupscale-368x276.jpg");
+}
+
+.popular-box-article-4 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/Amazon-Dating-Featured-368x276.jpg");
+}
+
+.popular-box-article-5 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/buzzy-bees-368x276.jpg");
+}
+
+.popular-box-article-6 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/israel-tesla-autopilot-phantom-iamge-trick-danger-systems-driver-aids-hack-368x276.jpg");
+}
+
+.popular-box-article-7 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Amazon-Prime-Fresh-delivery-hed-368x276.jpg");
+}
+
+.popular-box-article-8 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/Hamilton-hed-368x276.jpg");
+}
+
+.latest-funding-container {
+  height: auto;
+  width: 100%;
+}
+
+.latest-funding-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.latest-title > h3 {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.header-funding-nav {
+  font-size: 1rem;
+  color: #f42;
+  width: auto;
+  height: auto;
+  position: relative;
+  top: 0;
+  right: 0;
+  text-align: right;
+}
+
+.without-borders {
+  border: none;
+}
+
+.header-funding-nav > ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.left-red-border {
+  border-left: 2px solid #f42;
+  margin-left: 10px;
+}
+
+.header-funding-nav > ul > li > a:hover {
+  text-decoration: none;
+  color: #336;
+}
+
+.funding-container {
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto 20px auto;
+  height: 250px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.funding-box {
+  background-color: #fffaf8;
+  display: grid;
+  grid-template-rows: 96px 82px 86px;
+}
+
+.funding-header {
+  background: rgba(255, 68, 34, 0.08);
+  width: 100%;
+  text-decoration: none;
+}
+
+.header-top {
+  background-color: #f42;
+  height: 40px;
+  width: 100%;
+}
+
+.funding-price {
+  height: auto;
+  padding-left: 85px;
+  padding-top: 5px;
+}
+
+.funding-link {
+  border-bottom: 1px solid #f42;
+}
+
+.funding-img {
+  position: relative;
+  top: 15px;
+  left: 15px;
+  height: 60px;
+  width: 60px;
+  float: left;
+  margin-top: -40px;
+}
+
+.price-text {
+  color: #000;
+  font-weight: 700;
+  display: block;
+}
+
+.series-text {
+  color: #aaa;
+  font-weight: 100;
+}
+
+.funding-link > ul {
+  padding: 15px;
+  list-style-type: none;
+  font-size: 0.9rem;
+  line-height: 1.8;
+}
+
+.funding-description {
+  padding: 15px;
+}
+
+.funding-description > span {
+  color: #555;
+  font-size: 0.75rem;
+  line-height: 1.5;
+}
+
+.without-margin-left {
+  margin-left: 0;
+}
+
+.pull-right {
+  margin-right: 0;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .logo-min {
+    display: flex;
+  }
+
+  .TNW-Logo {
+    display: none;
+  }
+
+  .right-menu {
+    display: none;
+  }
+
+  .header-message > span {
+    margin-left: 120px;
+  }
+
+  .first-main-article-date {
+    display: none;
+  }
+
+  .first-main-article-title {
+    font-size: 2.6rem;
+  }
+
+  .second-main-article-title {
+    font-size: 1.4rem;
+  }
+
+  .most-popular-container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 25px;
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .news-container {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .funding-container {
+    width: 80%;
+    margin: 0 auto 20px auto;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+  }
+
+  .latest-funding-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .header-funding-nav > ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+  }
+
+  .header-funding-nav > ul > li > a {
+    text-decoration: none;
+    color: #f42;
+    margin: 0 0 0 10px;
+    font-weight: 100;
+  }
+
+  .header-funding-nav > ul > li > .without-margin-left {
+    text-decoration: none;
+    color: #f42;
+    margin: 0;
+    font-weight: 100;
+  }
+}
+
+@media (max-width: 767px) {
+  .main-menu {
+    display: none;
+  }
+
+  .latest-menu {
+    display: none;
+  }
+
+  .latest-menu-search {
+    background-color: #fff;
+    height: 48px;
+  }
+
+  .nav-icons {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+  }
+
+  .search-icon {
+    box-sizing: border-box;
+    height: 48px;
+    font-size: 1rem;
+  }
+
+  .bar-icon {
+    display: flex;
+    align-items: center;
+    height: 48px;
+    border-left: 1px #9f9f9f solid;
+  }
+
+  .logo-min {
+    width: 106px;
+    height: 48px;
+    display: flex;
+  }
+
+  .logo-link {
+    margin: auto;
+    width: 65px;
+  }
+
+  .TNW-Logo {
+    display: none;
+  }
+
+  .header-message > span {
+    margin: auto;
+  }
+
+  .main-cover {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 215px);
+  }
+
+  .first-main-article {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .second-main-article {
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  .third-main-article {
+    grid-column: 1;
+    grid-row: 3;
+  }
+
+  .first-main-article-title {
+    font-size: 1.1rem;
+  }
+
+  .second-main-article-title {
+    font-size: 1.1rem;
+  }
+
+  .news-container {
+    grid-template-columns: 1fr;
+    margin: 0 auto;
+  }
+
+  .news-box {
+    height: auto;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .title-author-price {
+    margin-left: 10px;
+  }
+
+  .news-image {
+    height: 100px;
+    width: 100px;
+  }
+
+  .latest-title {
+    margin: 25px auto;
+    width: 80%;
+    max-width: 1200px;
+  }
+
+  .most-popular-container {
+    display: flex;
+    flex-flow: column;
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .deal-image {
+    height: 100px;
+    width: 100px;
+  }
+
+  .funding-container {
+    width: 80%;
+    margin: 0 auto 20px auto;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+  }
+
+  .latest-funding-header {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .header-funding-nav {
+    font-size: 1rem;
+    color: #f42;
+    width: auto;
+    height: auto;
+    position: relative;
+    top: 0;
+    right: 0;
+    text-align: left;
+  }
+
+  .header-funding-nav > ul {
+    list-style-type: none;
+    display: block;
+    margin-top: 10px;
+  }
+
+  .header-funding-nav > ul > li {
+    border-left: none;
+  }
+
+  .header-funding-nav > ul > li > a {
+    text-decoration: none;
+    color: #f42;
+    margin: 0;
+    font-weight: 100;
+  }
+
+  .left-red-border {
+    border: none;
+    margin-left: 0;
+  }
+}
